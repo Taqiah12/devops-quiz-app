@@ -78,7 +78,60 @@
     ],
     "answerIndex": 1,
     "explanation": "git checkout -b creates and switches to a new branch."
+  },
+  {
+    "id": "Q7",
+    "topic": "DevOps Culture",
+    "question": "What is a key benefit of DevOps culture?",
+    "options": [
+      "Slower releases",
+      "Improved collaboration",
+      "More silos",
+      "Less automation"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps improves collaboration between teams."
+  },
+  {
+    "id": "Q8",
+    "topic": "Continuous Integration",
+    "question": "Which practice is encouraged in CI?",
+    "options": [
+      "Large infrequent commits",
+      "Frequent small commits",
+      "No testing",
+      "Manual builds"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI encourages frequent small commits."
+  },
+  {
+    "id": "Q9",
+    "topic": "Continuous Deployment",
+    "question": "What happens in Continuous Deployment?",
+    "options": [
+      "Manual approval before deploy",
+      "Code is automatically deployed after passing tests",
+      "Code is never deployed",
+      "Only monthly releases"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment automatically deploys every successful build."
+  },
+  {
+    "id": "Q10",
+    "topic": "Infrastructure as Code",
+    "question": "Which tool is commonly used for Infrastructure as Code?",
+    "options": [
+      "Terraform",
+      "Photoshop",
+      "Excel",
+      "PowerPoint"
+    ],
+    "answerIndex": 0,
+    "explanation": "Terraform is a popular Infrastructure as Code tool."
   }
+
         
         
 
