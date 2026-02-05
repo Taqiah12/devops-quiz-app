@@ -1,1 +1,274 @@
-"first question to be create"
+
+[
+    {
+      "id": "Q1",
+      "topic": "DevOps Culture",
+      "question": "What does DevOps primarily emphasize?",
+      "options": [
+        "Tools only",
+        "Collaboration between development and operations",
+        "More documentation",
+        "Less automation"
+      ],
+      "answerIndex": 1,
+      "explanation": "DevOps focuses on collaboration and shared responsibility."
+    },
+    {
+      "id": "Q2",
+      "topic": "Version Control Systems",
+      "question": "What is a distributed version control system?",
+      "options": [
+        "A system with one central server",
+        "A system where every developer has a full repository copy",
+        "A cloud-only system",
+        "A backup tool"
+      ],
+      "answerIndex": 1,
+      "explanation": "In DVCS, each developer has a complete repository copy."
+    },
+    {
+      "id": "Q3",
+      "topic": "Continuous Integration",
+      "question": "How often should developers integrate code in CI?",
+      "options": [
+        "Once per month",
+        "Only before release",
+        "Frequently",
+        "Never"
+      ],
+      "answerIndex": 2,
+      "explanation": "CI encourages frequent integration to detect issues early."
+    }
+    ,
+  {
+    "id": "Q4",
+    "topic": "Continuous Delivery",
+    "question": "What does Continuous Delivery ensure?",
+    "options": [
+      "Code is always deployable",
+      "Code is never tested",
+      "Manual deployments only",
+      "No automation"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous Delivery ensures code is always in a deployable state."
+  },
+  {
+    "id": "Q5",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code?",
+    "options": [
+      "Managing infrastructure using scripts and code",
+      "Buying physical servers",
+      "Manual server setup",
+      "Monitoring tools"
+    ],
+    "answerIndex": 0,
+    "explanation": "IaC manages infrastructure through machine-readable code."
+  },
+  {
+    "id": "Q6",
+    "topic": "Version Control Systems",
+    "question": "Which command creates a new Git branch?",
+    "options": [
+      "git merge",
+      "git checkout -b",
+      "git commit",
+      "git push"
+    ],
+    "answerIndex": 1,
+    "explanation": "git checkout -b creates and switches to a new branch."
+  },
+  {
+    "id": "Q7",
+    "topic": "DevOps Culture",
+    "question": "What is a key benefit of DevOps culture?",
+    "options": [
+      "Slower releases",
+      "Improved collaboration",
+      "More silos",
+      "Less automation"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps improves collaboration between teams."
+  },
+  {
+    "id": "Q8",
+    "topic": "Continuous Integration",
+    "question": "Which practice is encouraged in CI?",
+    "options": [
+      "Large infrequent commits",
+      "Frequent small commits",
+      "No testing",
+      "Manual builds"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI encourages frequent small commits."
+  },
+  {
+    "id": "Q9",
+    "topic": "Continuous Deployment",
+    "question": "What happens in Continuous Deployment?",
+    "options": [
+      "Manual approval before deploy",
+      "Code is automatically deployed after passing tests",
+      "Code is never deployed",
+      "Only monthly releases"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment automatically deploys every successful build."
+  },
+  {
+    "id": "Q10",
+    "topic": "Infrastructure as Code",
+    "question": "Which tool is commonly used for Infrastructure as Code?",
+    "options": [
+      "Terraform",
+      "Photoshop",
+      "Excel",
+      "PowerPoint"
+    ],
+    "answerIndex": 0,
+    "explanation": "Terraform is a popular Infrastructure as Code tool."
+  },
+  {
+    "id": "Q11",
+    "topic": "Version Control Systems",
+    "question": "What is the purpose of a Git pull request?",
+    "options": [
+      "Delete code",
+      "Request code review and merge",
+      "Run tests",
+      "Create branches"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pull requests allow review before merging changes."
+  },
+  {
+    "id": "Q12",
+    "topic": "Continuous Delivery",
+    "question": "Continuous Delivery differs from Continuous Deployment because it:",
+    "options": [
+      "Automatically deploys to production",
+      "Requires manual approval for deployment",
+      "Avoids testing",
+      "Uses no automation"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Delivery requires manual approval to deploy."
+  },
+  {
+    "id": "Q13",
+    "topic": "DevOps Culture",
+    "question": "Which value supports DevOps culture?",
+    "options": [
+      "Blame culture",
+      "Shared responsibility",
+      "Strict silos",
+      "Manual processes"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps promotes shared responsibility."
+  },
+  {
+    "id": "Q14",
+    "topic": "Continuous Integration",
+    "question": "What should happen when a CI build fails?",
+    "options": [
+      "Ignore it",
+      "Fix it immediately",
+      "Deploy anyway",
+      "Delete the branch"
+    ],
+    "answerIndex": 1,
+    "explanation": "Failing builds should be fixed immediately."
+  }
+  ,
+  {
+    "id": "Q15",
+    "topic": "Plan with DevOps",
+    "question": "What is the goal of planning in DevOps?",
+    "options": [
+      "Avoid feedback",
+      "Align development with business goals",
+      "Delay releases",
+      "Eliminate collaboration"
+    ],
+    "answerIndex": 1,
+    "explanation": "Planning aligns development work with business needs."
+  },
+  {
+    "id": "Q16",
+    "topic": "Version Control Systems",
+    "question": "Which command uploads commits to a remote repository?",
+    "options": [
+      "git pull",
+      "git push",
+      "git clone",
+      "git branch"
+    ],
+    "answerIndex": 1,
+    "explanation": "git push uploads local commits to the remote repository."
+  },
+  {
+    "id": "Q17",
+    "topic": "Infrastructure as Code",
+    "question": "What is a benefit of Infrastructure as Code?",
+    "options": [
+      "Manual configuration",
+      "Consistency and repeatability",
+      "Slower provisioning",
+      "Less automation"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC provides consistent and repeatable environments."
+  },
+  {
+    "id": "Q18",
+    "topic": "Continuous Deployment",
+    "question": "Continuous Deployment requires which of the following?",
+    "options": [
+      "Strong automated testing",
+      "No testing",
+      "Manual builds",
+      "Long release cycles"
+    ],
+    "answerIndex": 0,
+    "explanation": "Automated testing is essential for Continuous Deployment."
+  },
+  {
+    "id": "Q19",
+    "topic": "DevOps Culture",
+    "question": "What does continuous feedback enable?",
+    "options": [
+      "Faster improvement",
+      "Slower development",
+      "Less communication",
+      "More silos"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous feedback enables faster improvement."
+  },
+  {
+    "id": "Q20",
+    "topic": "Continuous Integration",
+    "question": "Where are CI pipelines usually executed?",
+    "options": [
+      "Developer laptop only",
+      "CI server or platform",
+      "Production servers",
+      "Manual scripts"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI pipelines run on CI servers or platforms."
+  }
+
+
+
+        
+        
+
+    
+
+  ]
+  
