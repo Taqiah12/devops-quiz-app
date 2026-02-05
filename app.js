@@ -1,16 +1,17 @@
 let questions = [];
-let currentQuestion = null;
+let currentQuestion;
 
-fetch("data/questions.json")
-  .then(res => res.json())
+fetch('data/questions.json')
+  .then(response => response.json())
   .then(data => {
     questions = data;
-    loadTopics();
-  });
+    initTopics();
+  })
+  .catch(err => console.error('Error loading questions:', err));
 
-function loadTopics() {
+function initTopics() {
+  const select = document.getElementById('topicSelect');
   const topics = [...new Set(questions.map(q => q.topic))];
-  const select = document.getElementById("topicSelect");
 
   topics.forEach(topic => {
     const option = document.createElement("option");
