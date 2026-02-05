@@ -1,7 +1,7 @@
 let questions = [];
 let currentQuestion;
 
-fetch('data/questions.json')
+fetch('devops-quiz-app\data\questions.json')
   .then(response => response.json())
   .then(data => {
     questions = data;
