@@ -1,1 +1,43 @@
-"first question to be create"
+
+[
+    {
+      "id": "Q1",
+      "topic": "DevOps Culture",
+      "question": "What does DevOps primarily emphasize?",
+      "options": [
+        "Tools only",
+        "Collaboration between development and operations",
+        "More documentation",
+        "Less automation"
+      ],
+      "answerIndex": 1,
+      "explanation": "DevOps focuses on collaboration and shared responsibility."
+    },
+    {
+      "id": "Q2",
+      "topic": "Version Control Systems",
+      "question": "What is a distributed version control system?",
+      "options": [
+        "A system with one central server",
+        "A system where every developer has a full repository copy",
+        "A cloud-only system",
+        "A backup tool"
+      ],
+      "answerIndex": 1,
+      "explanation": "In DVCS, each developer has a complete repository copy."
+    },
+    {
+      "id": "Q3",
+      "topic": "Continuous Integration",
+      "question": "How often should developers integrate code in CI?",
+      "options": [
+        "Once per month",
+        "Only before release",
+        "Frequently",
+        "Never"
+      ],
+      "answerIndex": 2,
+      "explanation": "CI encourages frequent integration to detect issues early."
+    }
+  ]
+  
