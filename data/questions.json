@@ -235,7 +235,34 @@
     ],
     "answerIndex": 0,
     "explanation": "Automated testing is essential for Continuous Deployment."
+  },
+  {
+    "id": "Q19",
+    "topic": "DevOps Culture",
+    "question": "What does continuous feedback enable?",
+    "options": [
+      "Faster improvement",
+      "Slower development",
+      "Less communication",
+      "More silos"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous feedback enables faster improvement."
+  },
+  {
+    "id": "Q20",
+    "topic": "Continuous Integration",
+    "question": "Where are CI pipelines usually executed?",
+    "options": [
+      "Developer laptop only",
+      "CI server or platform",
+      "Production servers",
+      "Manual scripts"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI pipelines run on CI servers or platforms."
   }
+
 
 
         
