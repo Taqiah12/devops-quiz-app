@@ -183,6 +183,59 @@
     "answerIndex": 1,
     "explanation": "Failing builds should be fixed immediately."
   }
+  ,
+  {
+    "id": "Q15",
+    "topic": "Plan with DevOps",
+    "question": "What is the goal of planning in DevOps?",
+    "options": [
+      "Avoid feedback",
+      "Align development with business goals",
+      "Delay releases",
+      "Eliminate collaboration"
+    ],
+    "answerIndex": 1,
+    "explanation": "Planning aligns development work with business needs."
+  },
+  {
+    "id": "Q16",
+    "topic": "Version Control Systems",
+    "question": "Which command uploads commits to a remote repository?",
+    "options": [
+      "git pull",
+      "git push",
+      "git clone",
+      "git branch"
+    ],
+    "answerIndex": 1,
+    "explanation": "git push uploads local commits to the remote repository."
+  },
+  {
+    "id": "Q17",
+    "topic": "Infrastructure as Code",
+    "question": "What is a benefit of Infrastructure as Code?",
+    "options": [
+      "Manual configuration",
+      "Consistency and repeatability",
+      "Slower provisioning",
+      "Less automation"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC provides consistent and repeatable environments."
+  },
+  {
+    "id": "Q18",
+    "topic": "Continuous Deployment",
+    "question": "Continuous Deployment requires which of the following?",
+    "options": [
+      "Strong automated testing",
+      "No testing",
+      "Manual builds",
+      "Long release cycles"
+    ],
+    "answerIndex": 0,
+    "explanation": "Automated testing is essential for Continuous Deployment."
+  }
 
 
         
