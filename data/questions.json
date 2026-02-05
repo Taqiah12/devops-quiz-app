@@ -130,7 +130,60 @@
     ],
     "answerIndex": 0,
     "explanation": "Terraform is a popular Infrastructure as Code tool."
+  },
+  {
+    "id": "Q11",
+    "topic": "Version Control Systems",
+    "question": "What is the purpose of a Git pull request?",
+    "options": [
+      "Delete code",
+      "Request code review and merge",
+      "Run tests",
+      "Create branches"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pull requests allow review before merging changes."
+  },
+  {
+    "id": "Q12",
+    "topic": "Continuous Delivery",
+    "question": "Continuous Delivery differs from Continuous Deployment because it:",
+    "options": [
+      "Automatically deploys to production",
+      "Requires manual approval for deployment",
+      "Avoids testing",
+      "Uses no automation"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Delivery requires manual approval to deploy."
+  },
+  {
+    "id": "Q13",
+    "topic": "DevOps Culture",
+    "question": "Which value supports DevOps culture?",
+    "options": [
+      "Blame culture",
+      "Shared responsibility",
+      "Strict silos",
+      "Manual processes"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps promotes shared responsibility."
+  },
+  {
+    "id": "Q14",
+    "topic": "Continuous Integration",
+    "question": "What should happen when a CI build fails?",
+    "options": [
+      "Ignore it",
+      "Fix it immediately",
+      "Deploy anyway",
+      "Delete the branch"
+    ],
+    "answerIndex": 1,
+    "explanation": "Failing builds should be fixed immediately."
   }
+
 
         
         
