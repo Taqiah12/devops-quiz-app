@@ -39,5 +39,50 @@
       "answerIndex": 2,
       "explanation": "CI encourages frequent integration to detect issues early."
     }
+    ,
+  {
+    "id": "Q4",
+    "topic": "Continuous Delivery",
+    "question": "What does Continuous Delivery ensure?",
+    "options": [
+      "Code is always deployable",
+      "Code is never tested",
+      "Manual deployments only",
+      "No automation"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous Delivery ensures code is always in a deployable state."
+  },
+  {
+    "id": "Q5",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code?",
+    "options": [
+      "Managing infrastructure using scripts and code",
+      "Buying physical servers",
+      "Manual server setup",
+      "Monitoring tools"
+    ],
+    "answerIndex": 0,
+    "explanation": "IaC manages infrastructure through machine-readable code."
+  },
+  {
+    "id": "Q6",
+    "topic": "Version Control Systems",
+    "question": "Which command creates a new Git branch?",
+    "options": [
+      "git merge",
+      "git checkout -b",
+      "git commit",
+      "git push"
+    ],
+    "answerIndex": 1,
+    "explanation": "git checkout -b creates and switches to a new branch."
+  }
+        
+        
+
+    
+
   ]
   
