@@ -1,1 +1,168 @@
-"first question to be create"
+[
+    {
+      "id": "Q1",
+      "topic": "Continuous Integration",
+      "question": "What is the primary goal of Continuous Integration?",
+      "options": [
+        "Automatically deploy to production",
+        "Frequently integrate code changes into a shared repository",
+        "Eliminate the need for testing",
+        "Remove the need for branches"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous Integration aims to detect integration issues early."
+    },
+    {
+      "id": "Q2",
+      "topic": "Version Control Systems",
+      "question": "Which system is a popular distributed version control tool?",
+      "options": ["Git", "SVN", "CVS", "Mercurial"],
+      "answerIndex": 0,
+      "explanation": "Git is widely used for DVCS in DevOps."
+    },
+    {
+      "id": "Q3",
+      "topic": "DevOps Culture",
+      "question": "What is a key principle of DevOps culture?",
+      "options": ["Collaboration", "Isolation", "Delays", "Manual Testing Only"],
+      "answerIndex": 0,
+      "explanation": "DevOps emphasizes collaboration between development and operations."
+    },
+    {
+      "id": "Q4",
+      "topic": "Continuous Delivery",
+      "question": "Continuous Delivery ensures:",
+      "options": ["Automated testing", "Code is always deployable", "Manual approval for each commit", "No testing required"],
+      "answerIndex": 1,
+      "explanation": "Continuous Delivery ensures code is in a deployable state at all times."
+    },
+    {
+      "id": "Q5",
+      "topic": "Infrastructure as Code",
+      "question": "Infrastructure as Code allows:",
+      "options": ["Manual server configuration", "Automated infrastructure provisioning", "Hard-coded credentials", "UI-only operations"],
+      "answerIndex": 1,
+      "explanation": "IaC automates the creation and management of infrastructure."
+    },
+    {
+      "id": "Q6",
+      "topic": "Plan with DevOps",
+      "question": "Planning in DevOps involves:",
+      "options": ["Ignoring stakeholder input", "Collaborating on requirements", "Deploying without testing", "Only using spreadsheets"],
+      "answerIndex": 1,
+      "explanation": "DevOps planning emphasizes collaboration and iterative development."
+    },
+    {
+      "id": "Q7",
+      "topic": "Continuous Integration",
+      "question": "Which tool is commonly used for CI pipelines?",
+      "options": ["Jenkins", "Photoshop", "Excel", "Docker Hub"],
+      "answerIndex": 0,
+      "explanation": "Jenkins is widely used for automating CI/CD pipelines."
+    },
+    {
+      "id": "Q8",
+      "topic": "Continuous Deployment",
+      "question": "Continuous Deployment automatically:",
+      "options": ["Merges branches", "Deploys code to production", "Deletes tests", "Schedules meetings"],
+      "answerIndex": 1,
+      "explanation": "Continuous Deployment pushes every change to production automatically if tests pass."
+    },
+    {
+      "id": "Q9",
+      "topic": "Version Control Systems",
+      "question": "Git allows:",
+      "options": ["Tracking changes", "Deleting history permanently", "Avoiding commits", "Ignoring branches"],
+      "answerIndex": 0,
+      "explanation": "Git tracks code changes and allows branching and collaboration."
+    },
+    {
+      "id": "Q10",
+      "topic": "DevOps Culture",
+      "question": "What practice reduces friction between Dev and Ops teams?",
+      "options": ["Continuous Feedback", "Manual Handoffs", "Delayed Deployments", "Strict Isolation"],
+      "answerIndex": 0,
+      "explanation": "Continuous feedback promotes smooth collaboration."
+    },
+    {
+      "id": "Q11",
+      "topic": "Continuous Integration",
+      "question": "CI pipelines usually include:",
+      "options": ["Unit tests", "Integration tests", "Build automation", "All of the above"],
+      "answerIndex": 3,
+      "explanation": "CI pipelines automate building, testing, and integration."
+    },
+    {
+      "id": "Q12",
+      "topic": "Continuous Delivery",
+      "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
+      "options": ["CD requires manual approval before production", "CD automatically deploys", "CD skips tests", "No difference"],
+      "answerIndex": 0,
+      "explanation": "Continuous Delivery keeps code deployable but may require manual approval."
+    },
+    {
+      "id": "Q13",
+      "topic": "Infrastructure as Code",
+      "question": "Which tool is commonly used for IaC?",
+      "options": ["Terraform", "VS Code", "GitHub", "Slack"],
+      "answerIndex": 0,
+      "explanation": "Terraform allows automated infrastructure provisioning using code."
+    },
+    {
+      "id": "Q14",
+      "topic": "Plan with DevOps",
+      "question": "Agile planning in DevOps focuses on:",
+      "options": ["Iterations", "Waterfall only", "Ignoring feedback", "Single release"],
+      "answerIndex": 0,
+      "explanation": "Agile planning ensures iterative and flexible development."
+    },
+    {
+      "id": "Q15",
+      "topic": "Continuous Deployment",
+      "question": "Which condition must pass before deployment?",
+      "options": ["All automated tests", "Manual code inspection only", "Skipping builds", "Ignoring errors"],
+      "answerIndex": 0,
+      "explanation": "All automated tests must pass before Continuous Deployment."
+    },
+    {
+      "id": "Q16",
+      "topic": "DevOps Culture",
+      "question": "Blameless post-mortems help:",
+      "options": ["Identify issues", "Assign blame", "Ignore errors", "Avoid collaboration"],
+      "answerIndex": 0,
+      "explanation": "Blameless post-mortems encourage learning from failures."
+    },
+    {
+      "id": "Q17",
+      "topic": "Version Control Systems",
+      "question": "What is a branch in Git?",
+      "options": ["A separate line of development", "A backup file", "A test environment", "A tag"],
+      "answerIndex": 0,
+      "explanation": "Branches allow isolated development without affecting main code."
+    },
+    {
+      "id": "Q18",
+      "topic": "Continuous Integration",
+      "question": "Why is frequent integration important?",
+      "options": ["To catch bugs early", "To avoid tests", "To skip code review", "To deploy slower"],
+      "answerIndex": 0,
+      "explanation": "Frequent integration reduces conflicts and bugs."
+    },
+    {
+      "id": "Q19",
+      "topic": "Continuous Delivery",
+      "question": "CD pipelines often include:",
+      "options": ["Automated builds", "Tests", "Staging deployment", "All of the above"],
+      "answerIndex": 3,
+      "explanation": "CD pipelines automate build, test, and staging deployment."
+    },
+    {
+      "id": "Q20",
+      "topic": "Infrastructure as Code",
+      "question": "What is idempotency in IaC?",
+      "options": ["Applying code multiple times has same effect", "Code can only run once", "Skipping deployments", "Deleting infrastructure automatically"],
+      "answerIndex": 0,
+      "explanation": "Idempotency ensures repeated IaC runs don’t break infrastructure."
+    }
+  ]
+  
